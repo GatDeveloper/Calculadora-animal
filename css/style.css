@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+#container{ 
+    background-color: bisque;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+#calculadora{ 
+    background-color: azure;
+    width: 50vw;
+    display:grid; 
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 9fr;
+}
+
+#teclado{ 
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+#teclas-numericas{
+    background-color: aqua;
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+
+}
+
+.teclas-numericas{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#teclas-operadores{
+    background-color: aquamarine;
+
+}
+
+.teclas-operadores{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
